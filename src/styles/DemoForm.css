@@ -1,0 +1,44 @@
+.FormRoot {
+  width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.FormField {
+  margin-bottom: 20px;
+}
+
+.FormLabel {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.FormMessage {
+  font-size: 14px;
+  color: #ff4444;
+  margin-left: 10px;
+}
+
+.Input,
+.Textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #45a049;
+}
