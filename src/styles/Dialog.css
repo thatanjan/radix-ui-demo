@@ -1,0 +1,91 @@
+/* Basic Dialog Styles */
+.DialogOverlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.DialogContent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.DialogTitle {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.DialogDescription {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.Fieldset {
+  margin-bottom: 20px;
+}
+
+.Label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.Input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.Button.violet {
+  background-color: #8e44ad;
+  color: white;
+}
+
+.Button.green {
+  background-color: #27ae60;
+  color: white;
+}
+
+.IconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Adjustments for the close button */
+.IconButton:hover {
+  opacity: 0.7;
+}
+
+/* Styles for Cross2Icon */
+.IconButton svg {
+  width: 16px;
+  height: 16px;
+  fill: #333;
+}

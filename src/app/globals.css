@@ -1,0 +1,13 @@
+:root {
+  --peach: #efc69bff;
+  --amaranth-purple: #af1b3fff;
+  --english-violet: #473144ff;
+  --khaki: #ccb69bff;
+  --buff: #df9b6dff;
+}
+
+/* Add reset css */
+
+* {
+  box-sizing: border-box;
+}

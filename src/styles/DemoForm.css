@@ -1,5 +1,4 @@
 .FormRoot {
-  width: 400px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
 }
@@ -37,6 +36,10 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.Button.Close {
+  background-color: #ff4444;
 }
 
 .Button:hover {
