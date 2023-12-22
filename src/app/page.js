@@ -1,14 +1,17 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+// import styles from './page.module.css'
 
 import DemoForm from '../Components/DemoForm'
-import Accordion from '../Components/Accordion'
-import Dialog from '../Components/Dialog'
+// import Accordion from '../Components/Accordion'
+// import Dialog from '../Components/Dialog'
+// import HoverCardDemo from '../Components/HoverCard'
 
 export default function Home() {
 	return (
-		<main className={styles.main}>
-			<Dialog />
+		<main>
+			<DemoForm />
+			{/* <HoverCardDemo /> */}
+			{/* <Dialog /> */}
 			{/* <Accordion /> */}
 		</main>
 	)

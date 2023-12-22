@@ -1,5 +1,4 @@
 'use client'
-import React from 'react'
 import * as Dialog from '@radix-ui/react-dialog'
 import '../styles/Dialog.css'
 import DemoForm from './DemoForm'
